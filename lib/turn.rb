@@ -35,3 +35,10 @@ end
 def turn(board)
   puts "Please enter 1-9:"
 end
+
+def move(board)
+  input_to_index(board)
+  position_taken?(board) = False
+  valid_move?(board) = True
+  #{board[index]}
+end
