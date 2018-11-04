@@ -20,7 +20,7 @@ def input_to_index(input)
    index = input.strip.to_i - 1
 end 
 
-def valid_move?(index)
+def valid_move?(board[index])
   
   if index <= 8
     return true
