@@ -16,4 +16,4 @@ input_to_index(input)
 
 valid_move?(board)
 
-move(board, index)
+move(board)
