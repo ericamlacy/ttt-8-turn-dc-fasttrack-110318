@@ -22,18 +22,17 @@ end
 
 def position_taken?(board)
   if #{board[index]} == " "
-    return False
+    return false
     else #{board[index]} != " "
-    return True
+    return true
   end
 end
 
 def valid_move?(board)
   if index <= 8
-    return True
-  end
-  if index > 8
-    return False
+    return true
+  else 
+    return false
   end
 end
 
