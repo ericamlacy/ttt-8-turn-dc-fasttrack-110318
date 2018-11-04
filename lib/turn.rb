@@ -27,3 +27,6 @@ def valid_move?(board)
   if index <= 8
     
 end
+
+def turn(board)
+  
