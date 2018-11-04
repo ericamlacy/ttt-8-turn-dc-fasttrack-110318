@@ -26,13 +26,16 @@ def position_taken?(board)
     return False
     else board[index] !== " "
     return True
+  end
 end
 
 def valid_move?(board)
   if index <== 8
     return True
+  end
   if index > 8
     return False
+  end
 end
 
 def turn(board)
