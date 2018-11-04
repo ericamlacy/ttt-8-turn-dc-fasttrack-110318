@@ -17,7 +17,7 @@ def display_board(board)
 end
 
 def input_to_index(input)
-   input.strip.to_i
+   input.strip.to_i - 1
 end 
 
 def position_taken?(board)
@@ -29,7 +29,7 @@ def position_taken?(board)
 end
 
 def valid_move?(board)
-  if index <== 8
+  if index <= 8
     return True
   end
   if index > 8
