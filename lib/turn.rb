@@ -28,20 +28,12 @@ def position_taken?(board, index)
   end
 end
 
-def valid_move?(board)
-  
-  if index <= 8
+def valid_move?(board, index)
+  if index <= 8 && board[index] = " "
     return true
   else 
     return false
   end
-  
-  if board[index] = " "
-  return true
-  else 
-  return false
-  end
-  
 end
 
 def turn(board)
