@@ -21,16 +21,19 @@ def input_to_index(input)
 end 
 
 def valid_move?(index)
+  
   if index <= 8
     return true
   else 
     return false
   end
+  
   if board[index] = " "
   return true
-else 
+  else 
   return false
-end
+  end
+  
 end
 
 def turn(board)
