@@ -14,4 +14,6 @@ input = gets.strip
 
 input_to_index(input)
 
-move(board)
+valid_move?(board, index)
+
+move(board, index)
