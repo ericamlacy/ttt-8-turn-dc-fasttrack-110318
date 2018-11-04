@@ -30,7 +30,9 @@ end
 
 def valid_move?(board)
   if index <= 8
-    
+    return True
+  if index > 8
+    return False
 end
 
 def turn(board)
