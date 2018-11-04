@@ -35,3 +35,7 @@ def turn(board)
   valid_move?(board) == True
   #{board[index]}
 end
+
+def move(board)
+  
+end
