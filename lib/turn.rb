@@ -38,4 +38,12 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
+  if input <= 9
+    
+end
+
+def move(board)
+ def update_array_at_with(array, index, value)
+  array[index] = value
+ end 
 end
