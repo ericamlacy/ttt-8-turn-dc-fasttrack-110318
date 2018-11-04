@@ -39,6 +39,8 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   if input <= 9
+  else
+  turn(board)
   end  
 end
 
