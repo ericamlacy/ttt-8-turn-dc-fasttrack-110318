@@ -42,6 +42,7 @@ def turn(board)
 end
 
 def move(board)
+  gets.strip
   input_to_index(board)
   position_taken?(board) == False
   valid_move?(board) == True
