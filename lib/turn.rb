@@ -20,7 +20,7 @@ def input_to_index(input)
    index = input.strip.to_i - 1
 end 
 
-def valid_move?(board[index])
+def valid_move?(index)
   
   if index <= 8
     return true
@@ -38,8 +38,4 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-end
-
-def move(board)
-  #{board[index]}
 end
