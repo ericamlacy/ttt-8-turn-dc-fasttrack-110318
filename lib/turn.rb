@@ -27,7 +27,10 @@ def position_taken?(board)
     return True
 end
 
-
+def valid_move?(board)
+  if index <= 8
+    
+end
 
 def turn(board)
   puts "Please enter 1-9:"
