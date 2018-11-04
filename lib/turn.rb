@@ -20,14 +20,6 @@ def input_to_index(input)
    index = input.strip.to_i - 1
 end 
 
-def position_taken?(board)
-  if board[index] == " "
-    return false
-    else board[index] != " "
-    return true
-  end
-end
-
 def valid_move?(board)
   if index <= 8
     return true
@@ -40,7 +32,6 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
   input_to_index(input)
-  position_taken?(board) == False
   valid_move?(board) == True
   #{board[index]}
 end
