@@ -23,7 +23,7 @@ end
 def position_taken?(board)
   if board[index] == " "
     return False
-    else board[index] !== " "
+    else board[index] != " "
     return True
   end
 end
