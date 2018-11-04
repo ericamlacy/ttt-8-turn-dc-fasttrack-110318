@@ -21,16 +21,13 @@ def input_to_index(board)
 end 
 
 def position_taken?(board)
-  if board[index] = " "
-    puts "No"
-    else board[index] = "X" or "O"
-    puts "Yes"
+  if board[index] == " "
+    return False
+    else board[index] !== " "
+    return True
 end
 
-def valid_move?(board)
-  if index <= 8
-    
-end
+
 
 def turn(board)
   puts "Please enter 1-9:"
