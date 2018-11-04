@@ -17,8 +17,8 @@ def display_board(board)
 end
 
 def input_to_index(board)
-  board = gets.strip
-  index = board - 1
+  board == gets.strip
+  index == board - 1
 end 
 
 def position_taken?(board)
@@ -44,7 +44,7 @@ end
 
 def move(board)
   input_to_index(board)
-  position_taken?(board) = False
-  valid_move?(board) = True
+  position_taken?(board) == False
+  valid_move?(board) == True
   #{board[index]}
 end
