@@ -22,14 +22,14 @@ def input_to_index(board)
 end 
 
 def position_taken?(board)
-  if board[index] = " "
+  if board[index] == " "
     return False
-    else board[index] != " "
+    else board[index] !== " "
     return True
 end
 
 def valid_move?(board)
-  if index <= 8
+  if index <== 8
     return True
   if index > 8
     return False
