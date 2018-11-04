@@ -17,8 +17,7 @@ def display_board(board)
 end
 
 def input_to_index(input)
-  board == gets.strip
-  index == board - 1
+   input.strip.to_i
 end 
 
 def position_taken?(board)
