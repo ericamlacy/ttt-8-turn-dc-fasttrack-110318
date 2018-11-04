@@ -39,7 +39,7 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   if input <= 9
-    
+  end  
 end
 
 def move(board)
