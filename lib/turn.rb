@@ -17,8 +17,7 @@ def display_board(board)
 end
 
 def input_to_index(board)
-  index = input - 1
-  
+  index = board - 1
 end 
 
 def position_taken?(board)
