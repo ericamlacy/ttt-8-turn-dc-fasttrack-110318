@@ -17,12 +17,14 @@ def display_board(board)
 end
 
 def input_to_index(board)
+  index = input - 1
   
+end 
 
 def position_taken?(board)
   if board[index] = " "
     puts "No"
-    elsif board[index] = "X" or "O"
+    else board[index] = "X" or "O"
     puts "Yes"
 end
 
